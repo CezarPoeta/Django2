@@ -38,7 +38,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-
     'core',
     'bootstrap4',
     'stdimage',
@@ -85,7 +84,7 @@ DATABASES = {
         'NAME': 'django2',
         'USER': 'cpoeta',
         'PASSWORD': '@58415433P',
-        'HOST': 'localhost'
+        'HOST': 'localhost',
         'PORT':'3306',
     }
 }
