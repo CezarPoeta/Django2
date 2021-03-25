@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 
 import os
 import dj_database_url
+import django_heroku
 
 # Usando PostgreSQL com Heroku
 DATABASES = {
@@ -146,3 +147,4 @@ EMAIL_PORT = 587
 EMAIL_USER_TLS = True
 EMAIL_HOST_PASSWORD = 'sua senha'
 """
+django_heroku.settings(locals())
